@@ -1,0 +1,69 @@
+body {
+  margin: 0.5em 1em;
+  font-family: sans-serif;
+}
+
+nav {
+  display:flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: #5badf0;
+}
+
+nav a:last-child {
+ background-color: #5badf0;
+ color: white;
+}
+
+header {
+  text-align: center;
+  margin-top: 6em;
+}
+
+ img {
+  border-radius: 50%;
+
+
+   margin-top: 0px;
+     margin-right: 16px;
+    width: 56px;
+    height: 56px;
+}
+
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  color: #999;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+em {
+  color: #EB298C;
+  font-style: normal;
+}
+
+main {
+  max-width: 550px;
+  margin: 0 auto;
+
+}
+
+article {
+  display: flex;
+  align-items: flex-start;
+}
+
+section {
+  margin-left: 2em;
+}

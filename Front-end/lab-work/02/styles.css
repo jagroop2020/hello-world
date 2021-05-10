@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  background-color: black;
+  width: 15vw;
+  flex-direction: column;
+  float:left;
+}
+
+nav a {
+  background-color: #696969;
+  color: white;
+  text-decoration: none;
+  padding: 0.25em;
+  margin: 0.7em;
+
+}
+
+nav a:hover{
+  color: red;
+  padding: auto;
+  margin: auto;
+  transition: color 0.7s;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  padding: 3em;
+}
+
+section {
+  overflow: auto;
+
+}
+
+main {
+  display: flex;
+  width: 85vw;
+}
+body {
+  background-color: black;
+  text-decoration-color: white;
+  width: 85vw;
+}
